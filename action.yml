@@ -1,9 +1,9 @@
 # action.yml
-name: "Secrets Sync Action"
+name: "Secrets Sync Action - Repo Racers Pro Support"
 author: Justin Poehnelt
 branding:
   icon: 'copy'  
-  color: 'red'
+  color: 'blue'
 description: "Copies secrets from the action's environment to many other repos."
 inputs:
   github_token:

@@ -1,10 +1,53 @@
-# Secrets Sync Action
+<a href="https://reporacers.com/" taarget="_blank">
+  <img src="https://github.com/repo-racers/.github/blob/main/profile/repo-racers.svg" alt="Repo Raacers" width="600px"/>
+</a>
 
-![Build](https://github.com/jpoehnelt/secrets-sync-action/workflows/Build/badge.svg)
-![Release](https://github.com/jpoehnelt/secrets-sync-action/workflows/Release/badge.svg)
-[![codecov](https://codecov.io/gh/jpoehnelt/secrets-sync-action/branch/master/graph/badge.svg)](https://codecov.io/gh/jpoehnelt/secrets-sync-action)
-![GitHub contributors](https://img.shields.io/github/contributors/jpoehnelt/secrets-sync-action?color=green)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+This repository is included in our open-source Pro Support service which offers an efficient solution for managing popular GitHub Actions dependencies with ease:
+
+🙌 forked from [jpoehnelt/secrets-sync-action](https://github.com/jpoehnelt/secrets-sync-action)
+
+<details>
+
+<summary>What is Open-Source Pro Support?</summary>
+
+Open-Source Pro Support is a comprehensive service designed to streamline your workflow by providing:
+
+- **Customized Forks:** We create public forks of popular GitHub Actions, ensuring you have access to the latest features and fixes.
+  
+- **Dedicated Technical Support:** Say goodbye to the hassle of managing multiple open-source dependencies. With our service, you have a single point of contact for all your support needs. Reach out to us on our [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885) server, and our team of experts will be ready to assist you.
+  
+- **Priority Fixes:** Experience seamless issue resolution with our priority fix service. If you encounter any issues with our forks, we prioritize fixing them promptly to minimize disruptions to your workflow.
+  
+- **Community Contribution:** We believe in giving back to the open-source community. When we fix issues in our forks, we handle creating pull requests to the original authors, ensuring that the entire community benefits from the improvements.
+
+</details>
+
+<details>
+
+<summary>How It Works</summary>
+
+
+1. **Choose Our Fork:** Instead of referencing popular GitHub Actions repositories directly, simply reference this repository in your workflow.
+   
+2. **Enjoy Dedicated Support:** If you encounter any issues or need assistance, reach out to us on our [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885) server. Our team will be happy to help you promptly.
+   
+3. **Benefit from Priority Fixes:** Experience seamless issue resolution with our priority fix service. We prioritize fixing issues in our forks to ensure smooth operation for your projects.
+   
+4. **Contribute to the Community:** Rest assured that when we fix issues in our forks, we contribute back to the original repositories, benefiting the entire open-source community.
+
+*Not Your Thing?*
+
+We don't want to get in between you and the community. If you want to handle forking and submitting a pull request yourself, that's awesome.
+
+However, feel free to reach out to us on [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885) anyway if you need any help and advice in doing so.
+
+:heart: [open-source](https://opensource.org/)
+
+</details>
+
+---
+
+# Secrets Sync Action
 
 A Github Action that can sync secrets from one repository to many others. This action allows a maintainer to define and rotate secrets in a single repository and have them synced to all other repositories in the Github organization or beyond. Secrets do not need to be sensitive and could also be specific build settings that would apply to all repositories and become available to all actions. Regex is used to select the secrets and the repositories. Exclude is currently not supported and it is recommended to use a bot user if possible.
 
@@ -57,7 +100,7 @@ Target where secrets should be stored: `actions` (default), `codespaces` or `dep
 ## Usage
 
 ```yaml
-uses: jpoehnelt/secrets-sync-action@[insert version or commit]
+uses: repo-racers/secrets-sync-action@[insert version or commit]
   with:
     SECRETS: |
       ^FOO$
@@ -74,3 +117,8 @@ uses: jpoehnelt/secrets-sync-action@[insert version or commit]
 ```
 
 See the workflows in this repository for another example.
+
+---
+
+> [!TIP]
+> For support with this repo and many other open-source projects, visit us at https://reporacers.com/ and join us on  [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885).
